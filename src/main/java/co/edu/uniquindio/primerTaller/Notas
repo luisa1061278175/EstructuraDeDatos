@@ -1,90 +1,9 @@
 
-1. LinkedList
-Descripción: Es una implementación de la interfaz List en Java. Se basa en una estructura de datos llamada
- lista enlazada, donde cada elemento (nodo) tiene una referencia al siguiente y, en el caso de una lista
-doblemente enlazada, al anterior.
+                          TreeSet:
 
-Características:
-Permite elementos duplicados.
-Los elementos están ordenados según el orden de inserción.
-Permite elementos null.
-Las operaciones de inserción, eliminación y acceso son eficientes en los extremos de la lista.
+Se usa para datos no repetidos, es bueno para ordenar, buscar y eliminar.
+*Se usa: *
+SE DECLARA: public static TreeSet<Producto> productos = new TreeSet<>();
+EN EL MAIN:  productos = new TreeSet<>();
 
 
-2. CopyOnWriteArrayList
-Descripción: Es una implementación de la interfaz List en Java, especialmente diseñada para ser
-segura en entornos concurrentes.
-
-Características:
-En lugar de bloquear toda la lista durante operaciones de escritura (inserción, eliminación, etc.),
-crea una copia de la lista original.
-Ideal para escenarios donde hay más operaciones de lectura que de escritura.
-Ofrece consistencia eventual en lecturas, es decir, las operaciones de lectura nunca verán un estado inconsistente.
-
-
-3. Interfaz Set
-Descripción: Es una interfaz en Java que representa una colección que no permite elementos duplicados.
-Es parte del marco de colecciones de Java.
-
-Características:
-No permite elementos duplicados.
-Las operaciones están basadas en la implementación subyacente (HashSet, LinkedHashSet, TreeSet).
-No garantiza un orden específico de los elementos (depende de la implementación).
-
-4. HashSet
-Descripción: Es una implementación de la interfaz Set basada en una tabla hash.
-Características:
-No permite elementos duplicados.
-No garantiza el orden de los elementos.
-Permite null.
-Ofrece una operación de tiempo constante (O(1)) para las operaciones básicas (inserción, eliminación, etc.),
-asumiendo una buena dispersión hash.
-
-5. LinkedHashSet
-Descripción: Es una implementación de HashSet que además mantiene el orden de inserción de los elementos.
-Características:
-No permite elementos duplicados.
-Mantiene el orden en el que los elementos fueron insertados.
-Permite null.
-Es ligeramente menos eficiente que HashSet debido a la sobrecarga de mantener el orden.
-
-6. TreeSet
-Descripción: Es una implementación de la interfaz Set que utiliza un árbol rojo-negro para almacenar sus elementos.
-Características:
-No permite elementos duplicados.
-Los elementos están ordenados de manera natural o mediante un comparador proporcionado en el momento de la creación.
-No permite null.
-Ofrece operaciones de tiempo logarítmico (O(log n)) para las operaciones básicas.
-
-
-7. HashMap
-Descripción: Es una implementación de la interfaz Map en Java, que almacena pares clave-valor en una tabla hash.
-Características:
-Permite claves y valores null.
-No garantiza el orden de las claves.
-Las claves deben ser únicas.
-Ofrece operaciones de tiempo constante (O(1)) para las operaciones básicas, asumiendo una buena dispersión hash.
-
-
-8. LinkedHashMap
-Descripción: Es una implementación de HashMap que mantiene el orden de inserción de las claves.
-Características:
-Mantiene el orden de inserción de las claves.
-Permite claves y valores null.
-Es ligeramente menos eficiente que HashMap debido a la sobrecarga de mantener el orden.
-
-
-9. TreeMap
-Descripción: Es una implementación de la interfaz Map en Java que utiliza un árbol rojo-negro para almacenar los pares clave-valor.
-Características:
-Los pares clave-valor están ordenados según el orden natural de las claves o mediante un comparador proporcionado.
-No permite claves null.
-Ofrece operaciones de tiempo logarítmico (O(log n)).
-
-
-10. Interfaz Map
-Descripción: Es una interfaz que representa una estructura de datos en la que se asocian claves únicas con valores.
-Características:
-No permite claves duplicadas.
-Permite valores duplicados.
-La implementación subyacente (HashMap, LinkedHashMap, TreeMap) determina el orden y comportamiento de la estructura.

@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9704c0-67d7-499f-b5e8-3c866d85fa80" name="Changes" comment="Cambios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Dudas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/EnunciadoTaller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Punto1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Punto2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Descripciones" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/punto2/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/punto3/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Notas" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Notas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/punto1/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Punto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/punto1/Punto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/Punto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/primerTaller/punto2/Punto2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +46,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Punto1.executor": "Run",
+    "Application.Punto2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/USUARIO/Documents/DatosProgramacion/EstructuraDeDatos/src/main/java/co/edu/uniquindio/Main.java"
@@ -56,13 +60,26 @@
       <recent name="co.edu.uniquindio.primerTaller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Punto2">
     <configuration name="Punto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.primerTaller.Punto1" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.primerTaller.punto1.Punto1" />
       <module name="EstructuraDeDatos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.edu.uniquindio.primerTaller.*" />
+          <option name="PATTERN" value="co.edu.uniquindio.primerTaller.punto1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Punto2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.primerTaller.punto2.Punto2" />
+      <module name="EstructuraDeDatos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.primerTaller.punto2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Punto2" />
         <item itemvalue="Application.Punto1" />
       </list>
     </recent_temporary>
@@ -108,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724387046309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1724542076142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724542076142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

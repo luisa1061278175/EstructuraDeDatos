@@ -1,4 +1,4 @@
-package co.edu.uniquindio.primerTaller;
+package co.edu.uniquindio.primerTaller.punto1;
 
 import java.util.Objects;
 

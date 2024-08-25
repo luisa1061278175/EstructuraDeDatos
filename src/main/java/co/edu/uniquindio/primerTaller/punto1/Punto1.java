@@ -1,7 +1,6 @@
-package co.edu.uniquindio.primerTaller;
+package co.edu.uniquindio.primerTaller.punto1;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Punto1 {
