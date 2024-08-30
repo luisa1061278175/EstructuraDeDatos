@@ -5,15 +5,15 @@ import java.util.Map;
 
 public class LinkedHas {
     public static void main(String[] args) {
-    // Crear un LinkedHashMap
+
     Map<String, Double> productosLinkedHashMap = new LinkedHashMap<>();
 
-    // Agregar productos
+
     productosLinkedHashMap.put("Empanada", 2000.0);
     productosLinkedHashMap.put("Panseroti", 4500.0);
     productosLinkedHashMap.put("Arepa con carne", 3500.0);
 
-    // Mostrar el LinkedHashMap
+
     System.out.println("LinkedHashMap: " + productosLinkedHashMap);
 }
     /*Orden:

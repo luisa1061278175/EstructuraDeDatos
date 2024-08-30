@@ -4,15 +4,15 @@ import java.util.Map;
 
 public class TreeM{
     public static void main(String[] args) {
-    // Crear un TreeMap
+
     Map<String, Double> productosTreeMap = new TreeMap<>();
 
-    // Agregar productos
+
     productosTreeMap.put("Empanada", 2000.0);
     productosTreeMap.put("Panseroti", 4500.0);
     productosTreeMap.put("Arepa con carne", 3500.0);
 
-    // Mostrar el TreeMap
+
     System.out.println("TreeMap: " + productosTreeMap);
 }
 /*

@@ -6,12 +6,7 @@ import java.util.TreeSet;
 
 public class Punto2 {
 
-    //Crear la lista de productos en una clase empresa utilizando treeset, se debe realizar un método que
-    //busque un producto por su código.
 
-
-    //El TreeSet es especial para ordenamiento, no se permiten datos repetidos,
-    //operaciones eficientes para busqueda, eliminar...
 
     public static TreeSet<Producto> productos = new TreeSet<>();
 
